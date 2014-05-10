@@ -16,9 +16,11 @@ class Router {
         }
         else if (){
             // check if dir
+            $page = NULL;
         }
         else {
             // 404 message
+            $page = NULL;
         }
 
         return $page;

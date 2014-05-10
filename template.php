@@ -4,6 +4,7 @@
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <meta name="description" content="Canadian Freemasonry">
         <meta name="keywords" content="Mason, Freemason, Freemasonry">
+        <title><?php print PAGENAME ?></title>
     </head>
 
     <body>
