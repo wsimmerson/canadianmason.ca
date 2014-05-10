@@ -5,10 +5,10 @@
 
 class Router {
 
+   protected $page;
+
     function __construct() {
         $path = $_SERVER['REQUEST_URI'];
-
-        var_dump($path);
 
         $file = DOCROOT.$path.'.php';
         $dir = DOCROOT.$path;
@@ -16,15 +16,23 @@ class Router {
         if (file_exists($file)){
             $page = $file;
         }
-        else if (file_exists($dir) && is_dir($dir)){
+        else if ($path == '/') {
+          $page = "lib/front.php";
+        }
+        else if (file_exists($dir)){
             // check if dir
-            $page = NULL;
+            $page = "lib/list_files.php";
         }
         else {
             // 404 message
-            $page = NULL;
+            $page = "lib/404.php";
+            header(' ', true, 404);
         }
 
-        return $page;
+        $this->page = $page;
+    }
+
+    function getPage() {
+      return $this->page;
     }
 }

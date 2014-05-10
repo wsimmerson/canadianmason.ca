@@ -4,11 +4,14 @@
    * Page entry
    **/
   require_once('config.php');
-  require_once('router.php');
+  require_once('lib/router.php');
 
-  var_dump(DOCROOT);
-  var_dump($_SERVER['REQUEST_URI']);
 
-  $page = new Router();
+  $route = new Router();
+  $page = $route->getPage();
 
   require_once('template.php');
+
+  var_dump(DOCROOT);
+  var_dump(SITEROOT);
+  var_dump($_SERVER['REQUEST_URI']);
