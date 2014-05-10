@@ -11,10 +11,12 @@ class Router {
         var_dump($path);
 
         $file = DOCROOT.$path.'.php';
+        $dir = DOCROOT.$path;
+
         if (file_exists($file)){
             $page = $file;
         }
-        else if (){
+        else if (file_exists($dir) && is_dir($dir)){
             // check if dir
             $page = NULL;
         }
