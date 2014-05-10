@@ -9,4 +9,4 @@
 
   $page = new Router();
 
-  requier_once('template.php');
+  require_once('template.php');
