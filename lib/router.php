@@ -10,8 +10,8 @@ class Router {
     function __construct() {
         $path = $_SERVER['REQUEST_URI'];
 
-        $file = DOCROOT.$path.'.php';
-        $dir = DOCROOT.$path;
+        $file = DOCROOT.'/pages/'.$path.'.php';
+        $dir = DOCROOT.'/pages/'.$path;
 
         if (file_exists($file)){
             $page = $file;
@@ -19,7 +19,7 @@ class Router {
         else if ($path == '/') {
           $page = "lib/front.php";
         }
-        else if (file_exists($dir)){
+        else if (file_exists($dir) && is_dir($dir)){
             // check if dir
             $page = "lib/list_files.php";
         }

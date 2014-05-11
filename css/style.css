@@ -2,9 +2,33 @@
 	margin: 0 auto;
 	width: 900px;
 	padding: 10px;
-	border: 1px solid black;
 	display: block;
+	overflow: hidden;
 }
+
+#sidebar {
+	min-height: 100px;
+	margin-top: 20px;
+	padding: 2px;
+	width: 21%;
+	background: lightsteelblue;
+	display: block;
+	float: left;
+	border: 1px solid black;
+}
+
+#sidebar .title {
+	text-align: center;
+	border: 1px solid black;
+	margini-bottom: 2px;
+	padding: 2px;
+}
+
+#content {
+	display: block;
+	margin-left: 25%;
+}
+
 
 body {
 	display: block;
@@ -12,4 +36,9 @@ body {
 
 p {
 	text-indent: 10px;
+}
+
+footer {
+	margin-top: 5px;
+	display: block;
 }

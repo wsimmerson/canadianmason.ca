@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="http://<?php print SITEROOT ?>/css/style.css">
         <meta name="description" content="Canadian Freemasonry">
         <meta name="keywords" content="Mason, Freemason, Freemasonry">
         <title><?php print PAGENAME ?></title>
@@ -10,10 +10,19 @@
     <body>
         <div id='container'>
             <header>
-                <img src="img/canadianmason.jpg" alt="Canadian Mason" width="890px" align="cen    ter">
+                <img src="http://<?php print SITEROOT ?>/img/canadianmason.jpg" alt="Canadian Mason" width="890px" align="center">
             </header>
-            <?php require_once($page); ?>
 
+            <div id='sidebar'>
+              <div class='title'>Menu</div>
+              insert menus here
+            </div>
+
+            <div id='content'>
+              <?php require_once($page); ?>
+            </div>
+
+            <footer>
             <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
             <!-- cm -->
             <ins class="adsbygoogle"
@@ -23,6 +32,8 @@
             <script>
                 (adsbygoogle = window.adsbygoogle || []).push({});
             </script>
+
+
             <div id="disqus_thread"></div>
             <script type="text/javascript">
                 /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
@@ -37,7 +48,7 @@
             </script>
             <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
             <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-
+            </footer>
         </div>
     </body>
 </html>
