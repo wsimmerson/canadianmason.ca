@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="http://<?php print SITEROOT ?>/css/style.css">
@@ -15,7 +16,9 @@
 
             <div id='sidebar'>
               <div class='title'>Menu</div>
-              insert menus here
+
+              <?php print build_menu(DOCROOT."/pages/Directory", "Directory"); ?>
+
             </div>
 
             <div id='content'>

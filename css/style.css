@@ -9,19 +9,43 @@
 #sidebar {
 	min-height: 100px;
 	margin-top: 20px;
+	margin-bottom: 5px;
 	padding: 2px;
 	width: 21%;
 	background: lightsteelblue;
 	display: block;
 	float: left;
 	border: 1px solid black;
+	overflow: hidden;
 }
 
 #sidebar .title {
 	text-align: center;
 	border: 1px solid black;
-	margini-bottom: 2px;
+	margin-bottom: 2px;
 	padding: 2px;
+}
+
+#sidebar ul {
+	padding: 4px;
+	list-style: none;
+}
+
+#sidebar ul li {
+}
+
+#sidebar ul li a {
+	display: block;
+	text-decoration: none;
+	color: black;
+}
+
+#sidebar ul li ul {
+	display: none;
+}
+
+#sidebar ul li:hover ul {
+	display: block;
 }
 
 #content {

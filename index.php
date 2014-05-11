@@ -5,6 +5,7 @@
    **/
   require_once('config.php');
   require_once('lib/router.php');
+  require_once('lib/func.php');
 
 
   $route = new Router();
