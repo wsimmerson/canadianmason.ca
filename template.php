@@ -17,7 +17,10 @@
             <div id='sidebar'>
               <div class='title'>Menu</div>
 
-              <?php print build_menu(DOCROOT."/pages/Directory", "Directory"); ?>
+              <?php 
+                print build_menu(DOCROOT."/pages/About_Free_Masonry", "About_Free_Masonry");
+                print build_menu(DOCROOT."/pages/Directory", "Directory");
+              ?>
 
             </div>
 

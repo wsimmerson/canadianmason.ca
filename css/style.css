@@ -26,26 +26,19 @@
 	padding: 2px;
 }
 
+#sidebar a{
+  text-decoration:none;
+  color: black;
+}
+
 #sidebar ul {
-	padding: 4px;
-	list-style: none;
+  margin-left: 2px;
+  list-style-type: none;
 }
 
-#sidebar ul li {
-}
-
-#sidebar ul li a {
-	display: block;
-	text-decoration: none;
-	color: black;
-}
-
-#sidebar ul li ul {
-	display: none;
-}
-
-#sidebar ul li:hover ul {
-	display: block;
+#sidebar li {
+  margin-left: 4px;
+  list-style-position: outside;
 }
 
 #content {
@@ -65,4 +58,22 @@ p {
 footer {
 	margin-top: 5px;
 	display: block;
+}
+
+.crumbs {
+	margin-top: 20px;
+	border: 1px solid black;
+	background: lightsteelblue;
+	height: .7em;
+	display: block;
+	padding: 0px;
+	overflow: auto;
+}
+
+.crumbs a{
+	display: inline-block;
+	margin-left: 5px;
+	text-decoration: none;
+	color: black;
+	font-size: 12px;
 }
