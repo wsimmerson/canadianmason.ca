@@ -26,6 +26,7 @@
 	padding: 2px;
 }
 
+
 #sidebar ul {
 	margin-left: 2px;
 }
@@ -55,4 +56,22 @@ p {
 footer {
 	margin-top: 5px;
 	display: block;
+}
+
+.crumbs {
+	margin-top: 20px;
+	border: 1px solid black;
+	background: lightsteelblue;
+	height: .7em;
+	display: block;
+	padding: 0px;
+	overflow: auto;
+}
+
+.crumbs a{
+	display: inline-block;
+	margin-left: 5px;
+	text-decoration: none;
+	color: black;
+	font-size: 12px;
 }

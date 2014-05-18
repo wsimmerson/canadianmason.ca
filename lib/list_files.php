@@ -6,7 +6,6 @@
   $dir = DOCROOT.'/pages/'.$path;
 
   $list = scandir($dir);
-  var_dump($path);
 
 ?>
 
@@ -15,8 +14,7 @@
     foreach ($parts as $part) {
       if ($part !== '') {
         $name = str_replace('_', ' ', $part);
-        #$name = $part;
-        print "<a href='http://".SITEROOT."/".$part."'>$name</a>";
+        print "<a href='http://".SITEROOT."/".$part."'>&gt&gt{$name}</a>";
       }
     }
   ?>

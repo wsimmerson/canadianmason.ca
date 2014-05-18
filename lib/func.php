@@ -19,7 +19,7 @@ function build_menu($basedir, $path) {
           $new_link = str_replace('_', ' ', $new_link);
           $menu .= "<li>
                       <a href='http://".SITEROOT."/".$path."/".$new_link."'>
-                        {$new_link}</a>
+                        - {$new_link}</a>
                     </li>";
         }
       }
