@@ -27,7 +27,7 @@
 }
 
 #sidebar ul {
-	margin-left: 5px;
+	margin-left: 2px;
 }
 
 #sidebar ul+li {
@@ -35,7 +35,7 @@
 }
 
 #sidebar ul+ul {
-	margin-left: 5px
+	margin-left: 2px
 }
 
 #content {
