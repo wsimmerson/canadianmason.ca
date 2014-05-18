@@ -15,8 +15,8 @@ function build_menu($basedir, $path) {
           $menu .= build_menu($basedir.'/'.$link, $path.'/'.$link);
         }
         else {
-          $new_link = str_replace('.php', '', $link);
-          $new_link = str_replace('_', ' ', $new_link);
+          $link = str_replace('.php', '', $link);
+          $new_link = str_replace('_', ' ', $link);
           $menu .= "<div class='item'>
                       <a href='http://".SITEROOT."/".$path."/".$link."'>
                         {$new_link}</a>

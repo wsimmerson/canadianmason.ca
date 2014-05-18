@@ -87,6 +87,12 @@ footer {
 	display: block;
 }
 
+legend {
+	display: block;
+	font-weight: bold;
+	margin-top: 5px;
+}
+
 .crumbs {
 	margin-top: 20px;
 	border: 1px solid black;
