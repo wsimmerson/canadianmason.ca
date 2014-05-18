@@ -11,7 +11,7 @@
     <body>
         <div id='container'>
             <header>
-                <img src="http://<?php print SITEROOT ?>/img/canadianmason.jpg" alt="Canadian Mason" width="890px" align="center">
+                <h1><a href="http://<?php print SITEROOT ?>">CanadianMason.ca</a></h1>                
             </header>
 
             <div id='sidebar'>

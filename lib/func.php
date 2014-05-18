@@ -8,7 +8,7 @@ function build_menu($basedir, $path) {
   if (is_dir($basedir)) {
     $list = scandir($basedir);
     $title = str_replace('_', ' ', end(explode('/', $basedir)));
-    $menu = "<ul><li><a href='http://".SITEROOT.'/'.$path."'>{$title}</a><ul>";
+    $menu = "<div class='category'><a href='http://".SITEROOT.'/'.$path."'>{$title}</a>";
     foreach($list as $link){
       if ($link != '.' && $link != '..') {
         if (is_dir($basedir.'/'.$link)) {
@@ -17,14 +17,14 @@ function build_menu($basedir, $path) {
         else {
           $new_link = str_replace('.php', '', $link);
           $new_link = str_replace('_', ' ', $new_link);
-          $menu .= "<li>
-                      <a href='http://".SITEROOT."/".$path."/".$new_link."'>
-                        - {$new_link}</a>
-                    </li>";
+          $menu .= "<div class='item'>
+                      <a href='http://".SITEROOT."/".$path."/".$link."'>
+                        {$new_link}</a>
+                    </div>";
         }
       }
     }
-    $menu .= "</ul></li></ul>";
+    $menu .= "</div>";
     
   }
 

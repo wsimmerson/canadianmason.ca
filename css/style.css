@@ -12,7 +12,7 @@
 	margin-bottom: 5px;
 	padding: 2px;
 	width: 21%;
-	background: lightsteelblue;
+	background: #eee;
 	display: block;
 	float: left;
 	border: 1px solid black;
@@ -24,20 +24,31 @@
 	border: 1px solid black;
 	margin-bottom: 2px;
 	padding: 2px;
+	font-weight: bold;
+	background: lightsteelblue;
 }
 
-
-#sidebar ul {
-	margin-left: 2px;
+#sidebar .category {
+	text-align: left;
+	padding-left: 5px;
+	display: block;
+	font-weight: bold;
+}
+#sidebar .item {
+	text-align: left;
+	padding-left: 10px;
+	display: block;
+	font-weight: normal;
 }
 
-#sidebar ul+li {
-	margin-left: 2px;
+#sidebar a {
+	color: black;
 }
 
-#sidebar ul+ul {
-	margin-left: 2px
+#sidebar a:hover {
+	text-decoration: underline;
 }
+
 
 #content {
 	display: block;
@@ -53,6 +64,24 @@ p {
 	text-indent: 10px;
 }
 
+a {
+	color: black;
+	text-decoration: none;
+}
+
+header {
+	display: block;
+	padding: 20px;
+	color: royalblue;
+	background: #fff url(../img/canadianmason.jpg) center no-repeat;
+	border-radius: 15px;
+}
+
+header a {
+	color: royalblue;
+	text-decoration: none;
+}
+
 footer {
 	margin-top: 5px;
 	display: block;
@@ -62,7 +91,6 @@ footer {
 	margin-top: 20px;
 	border: 1px solid black;
 	background: lightsteelblue;
-	height: .7em;
 	display: block;
 	padding: 0px;
 	overflow: auto;

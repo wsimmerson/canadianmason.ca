@@ -14,7 +14,7 @@
     foreach ($parts as $part) {
       if ($part !== '') {
         $name = str_replace('_', ' ', $part);
-        print "<a href='http://".SITEROOT."/".$part."'>&gt&gt{$name}</a>";
+        print "<a href='http://".SITEROOT."/".$part."'>&gt&gt {$name}</a>";
       }
     }
   ?>
@@ -26,7 +26,7 @@
     foreach($list as $link) {
       if ($link != '.' && $link != '..') {
         $name = str_replace('_', ' ', $link);
-        $name = str_replace('.php', '', $link);
+        $name = str_replace('.php', '', $name);
         print "<li><a href='http://".SITEROOT.$path.$name."'>$name</a></li>";
       }
 
