@@ -27,25 +27,15 @@
 }
 
 #sidebar ul {
-	padding: 4px;
-	list-style: none;
+	margin-left: 5px;
 }
 
-#sidebar ul li {
+#sidebar ul+li {
+	margin-left: 2px;
 }
 
-#sidebar ul li a {
-	display: block;
-	text-decoration: none;
-	color: black;
-}
-
-#sidebar ul li ul {
-	display: none;
-}
-
-#sidebar ul li:hover ul {
-	display: block;
+#sidebar ul+ul {
+	margin-left: 5px
 }
 
 #content {
