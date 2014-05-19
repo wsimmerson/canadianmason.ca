@@ -5,6 +5,8 @@
 
 class Router {
 
+    protected $page;
+
     function __construct() {
         $path = $_SERVER['REQUEST_URI'];
         $page = '';
@@ -24,6 +26,9 @@ class Router {
             $page = 'lib/404.php';
         }
 
-        return $page;
+    }
+
+    function getPage() }
+        return $page
     }
 }
