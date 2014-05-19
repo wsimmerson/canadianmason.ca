@@ -22,7 +22,7 @@
                 print build_menu(DOCROOT."/pages/Directory", "Directory");
               ?>
               <div class='category'>
-                <a href="http://<?php print SITEROOT ?>/pages/About_CanadianMason.ca">Help</a>
+                <a href="http://<?php print SITEROOT ?>/About_CanadianMason.ca">Help</a>
               </div>
 
             </div>
