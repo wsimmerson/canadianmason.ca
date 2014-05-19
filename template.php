@@ -21,6 +21,9 @@
                 print build_menu(DOCROOT."/pages/About_Free_Masonry", "About_Free_Masonry");
                 print build_menu(DOCROOT."/pages/Directory", "Directory");
               ?>
+              <div class='category'>
+                <a href="http://".SITEROOT."/pages/About_CanadianMason.ca">Help</a>
+              </div>
 
             </div>
 

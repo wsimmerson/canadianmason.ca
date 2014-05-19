@@ -9,17 +9,15 @@ class Router {
         $path = $_SERVER['REQUEST_URI'];
         $page = '';
 
-        var_dump($path);
-
         $file = DOCROOT.$path.'.php'; 
         $dir = DOCROOT.$path;
 
-        if (file_exists($file)){
+        if (file_exists($file)) {
             $page = $file;
         }
-        else if (file_exists($dir) && is_dir($dir)){
+        else if (file_exists($dir) && is_dir($dir)) {
             // check if dir
-            $page = NULL;
+            $page = 'lib/list_files.php';
         }
         else {
             // 404 message
