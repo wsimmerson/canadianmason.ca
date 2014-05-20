@@ -69,7 +69,7 @@ body {
 }
 
 p {
-	text-indent: 10px;
+	text-indent: 25px;
 }
 
 a {
@@ -122,4 +122,23 @@ legend {
 	text-decoration: none;
 	color: black;
 	font-size: 12px;
+}
+
+.row {
+  width: 100%;
+  display: block;
+}
+
+.odd {
+  background: white;
+  border-bottom: 1px dotted black;
+}
+.even {
+  background: #eee;
+  border-bottom: 1px dotted black;
+}
+
+.comment-count {
+  display: inline-block;
+  float: right;
 }

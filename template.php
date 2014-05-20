@@ -22,6 +22,9 @@
                 print build_menu(DOCROOT."/pages/Directory", "Directory");
               ?>
               <div class='category'>
+                <a href="http://<?php print SITEROOT ?>/Discussion">Discussion</a>
+              </div>
+              <div class='category'>
                 <a href="http://<?php print SITEROOT ?>/About_CanadianMason.ca">Help</a>
               </div>
 
@@ -63,6 +66,18 @@
             CanadianMason.ca is a Community Site for Canadian Freemasons and those interested in the Craft. 
             CanadianMason.ca is Open Source and available to contribution via <a href="https://github.com/wsimmerson/canadianmason.ca">GitHub.com</a>
         </footer>
-        </div>        
+        </div>   
+        <script type="text/javascript">
+/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            var disqus_shortname = 'canadianmason'; // required: replace example with your forum shortname
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function () {
+            var s = document.createElement('script'); s.async = true;
+            s.type = 'text/javascript';
+            s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+            }());
+            </script>     
     </body>
 </html>

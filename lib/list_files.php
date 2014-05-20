@@ -25,9 +25,9 @@
   <?php
     foreach($list as $link) {
       if ($link != '.' && $link != '..') {
-        $name = str_replace('_', ' ', $link);
-        $name = str_replace('.php', '', $name);
-        print "<li><a href='http://".SITEROOT.$path.$name."'>$name</a></li>";
+        $nlink = str_replace('.php', '', $link);
+        $name = str_replace('_', ' ', $nlink);
+        print "<li><a href='http://".SITEROOT.$path.'/'.$nlink."'>$name</a></li>";
       }
 
     }

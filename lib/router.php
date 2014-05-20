@@ -9,9 +9,12 @@ class Router {
 
     function __construct() {
         $path = $_SERVER['REQUEST_URI'];
+        $parts = explode('/', $path);
+
 
         $file = DOCROOT.'/pages/'.$path.'.php';
         $dir = DOCROOT.'/pages/'.$path;
+        $mod = DOCROOT.'/mods/'.$parts[1].'.php';
 
         if (file_exists($file)){
             $page = $file;
@@ -22,6 +25,9 @@ class Router {
         else if (file_exists($dir) && is_dir($dir)){
             // check if dir
             $page = "lib/list_files.php";
+        }
+        else if (file_exists($mod)) {
+            $page = $mod;
         }
         else {
             // 404 message
