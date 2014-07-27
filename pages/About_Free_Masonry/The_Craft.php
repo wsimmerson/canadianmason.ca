@@ -1,5 +1,0 @@
-<h2>The Craft</h2>
-<p>Freemasonry is a fraternal organisation that arose from the loose organization of medieval masons (i.e. stone workers) working in the medieval building industry.</p>
-
-<legend>History</legend>
-<p>Freemasonry in Canada had varied origins owing to the fact that Canada as it currently exists, was formed over a period of time, from several former British colonies that came together at various times to form the Dominion of Canada (within the British Empire), which later became Canada as we know it today. There have also been influences from Freemasonry in the United States, including Prince Hall Freemasonry. It should be noted that Prince Hall Freemasonry is recognized by most Grand Lodges in Canada. Generally speaking, Freemasonry in what is now Canada ultimately traces its origins from what is now the United Grand Lodge of England, the Grand Lodge of Scotland and the Grand Lodge of Ireland.</p>
