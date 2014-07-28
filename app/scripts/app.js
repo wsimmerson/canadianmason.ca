@@ -27,6 +27,18 @@ angular
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl'
       })
+      .when('/directory', {
+        templateUrl: 'views/directory.tpl.html',
+        controller: 'DirectoryCtrl'
+      })
+      .when('/discussion', {
+        templateUrl: 'views/discussion.tpl.html',
+        controller: 'DiscussionCtrl'
+      })
+      .when('/discussion/:url', {
+        templateUrl: 'views/discussion-detail.tpl.html',
+        controller: 'DiscussionDetailCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });

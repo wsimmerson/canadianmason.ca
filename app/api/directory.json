@@ -1,0 +1,158 @@
+{
+    "provinces" : [
+        {
+            "name" : "Alberta",
+            "districts" : [
+                {
+                    "name" : "",
+                    "lodges" : [
+                        {
+                            "name" : "",
+                            "url" : ""
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            "name" : "British Columbia",
+            "districts" : [
+                {
+                    "name" : "",
+                    "lodges" : [
+                        {
+                            "name" : "",
+                            "url" : ""
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            "name" : "Manitoba",
+            "districts" : [
+                {
+                    "name" : "",
+                    "lodges" : [
+                        {
+                            "name" : "",
+                            "url" : ""
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            "name" : "New Brunswik",
+            "districts" : [
+                {
+                    "name" : "",
+                    "lodges" : [
+                        {
+                            "name" : "",
+                            "url" : ""
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            "name" : "Newfoundland & Labrador",
+            "districts" : [
+                {
+                    "name" : "",
+                    "lodges" : [
+                        {
+                            "name" : "",
+                            "url" : ""
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            "name" : "Nova Scotia",
+            "districts" : [
+                {
+                    "name" : "",
+                    "lodges" : [
+                        {
+                            "name" : "",
+                            "url" : ""
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            "name" : "Ontario",
+            "districts" : [
+                {
+                    "name" : "Ottawa District 1",
+                    "lodges" : [
+                        {
+                            "name":"Doric Lodge #58",
+                            "url" : "http://doric58.ca"
+                        },
+                        {
+                            "name" : "Civil Service",
+                            "url" : "http://some website"
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            "name" : "Prince Edward Island",
+            "districts" : [
+                {
+                    "name" : "",
+                    "lodges" : [
+                        {
+                            "name" : "",
+                            "url" : ""
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            "name" : "Quebec",
+            "districts" : [
+                {
+                    "name" : "",
+                    "lodges" : [
+                        {
+                            "name" : "",
+                            "url" : ""
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            "name" : "Saskatchewan",
+            "districts" : [
+                {
+                    "name" : "",
+                    "lodges" : [
+                        {
+                            "name" : "",
+                            "url" : ""
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+
+}

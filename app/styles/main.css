@@ -106,3 +106,24 @@ h2 {
 h3 {
   color: royalblue;
 }
+
+.dir-link {
+  color: royalblue;
+  padding-left: 10px;
+}
+
+.dir-link:hover {
+  background-color: #eee;
+  cursor: pointer;
+}
+
+.prov-title {
+  font-weight: bold;
+  font-size: 1.2em;
+  border-bottom: 1px solid lightgray;
+  width: 100%;
+}
+
+.prov-open {
+  background-color: #eee;
+}

@@ -1,0 +1,24 @@
+<h3>Craft Lodge Website Directory</h3>
+<ul>
+    <div ng-repeat="province in directory.provinces">
+
+        <div class='dir-link' 
+             ng-click="$parent.showing = '{{province.name}}'">
+
+            <div class="prov-title">{{ province.name }}</div>
+        
+
+            <div class="dir-link prov-open"
+                 ng-repeat="district in province.districts" 
+                 ng-show="checkProv('{{province.name}}')">
+
+                <lable>{{ district.name }}</lable>
+                <ul>
+                    <li ng-repeat="lodge in district.lodges">
+                        <a href="{{lodge.url}}">{{ lodge.name }}</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</ul>
