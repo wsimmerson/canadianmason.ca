@@ -2,11 +2,11 @@
     "Site-Suggestions" :  {
         "id" : "Site-Suggestions",
         "title" : "CanadianMason-Site Suggestions and Development",
-        "body" : "If you are a Freemason with PHP experience and want to help develop this site. You can clone the Git Repo on GitHub and make Pull requests. If you didn't get the above paragraph, but still want to make suggestions or corrections, post them below and we will be happy to look into it!"
+        "body" : "<p>If you are a Freemason with Angular.js(or other web development) experience and want to help develop this site. You can clone the Git Repo on GitHub and make Pull requests.</p><p> If you didn't get the above paragraph, but still want to make suggestions or corrections, post them below and we will be happy to look into it!</p>"
     },
     "How-do-I-Join" : {
         "id" : "How-do-I-Join",
         "title" : "How do I become a Freemason?",
-        "body" : "It couldn't be simpler! To become a Freemason, ask a Freemason. Of course, there are some restrictions to membership, inquire at your local lodge for details."
+        "body" : "<p>It couldn't be simpler! To become a Freemason, ask a Freemason. Of course, there are some restrictions to membership, inquire at your local lodge for details.</p>"
     }
 }
